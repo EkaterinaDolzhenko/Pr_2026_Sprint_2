@@ -5,7 +5,7 @@ import model.constants.Discount;
 
 import java.util.Objects;
 
-public class Apple extends Food implements Discountable {
+public class Apple extends Food {
     String colour;
 
     public Apple(int amount, double price, String colour){

@@ -14,8 +14,8 @@ public class Main {
 
         var cart = new ShoppingCart(items);
 
-        System.out.println("Общая сумма товаров без скидки: " + cart.totalPrice());
-        System.out.println("Общая сумма товаров со скидкой: " + cart.discountPrice());
-        System.out.println("Общая сумма всех вегетарианских продуктов без скидки: " + cart.vegPrice());
+        System.out.printf("Общая сумма товаров без скидки: %.2f%n", cart.totalPrice());
+        System.out.printf("Общая сумма товаров со скидкой: %.2f%n", cart.discountPrice());
+        System.out.printf("Общая сумма всех вегетарианских продуктов без скидки: %.2f%n", cart.vegPrice());
     }
 }
